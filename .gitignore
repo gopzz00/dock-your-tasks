@@ -1,0 +1,56 @@
+# Node.js related (for frontend if using React/Node.js)
+node_modules/
+npm-debug.log
+
+# Python related (for backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments (for Python)
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+
+# Docker related files
+*.log
+.docker/
+docker-compose.override.yml
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Python dependency directories
+Pipfile.lock
+requirements.txt
+
+# MySQL database files
+*.sql
+*.sqlite
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+
+# Files for environment-specific settings
+.env
+.env.local
+.env.production
+.env.development
+
+# Python egg files
+*.egg
+
+# Coverage reports (if used)
+.coverage
+*.coveragerc
+
+# Miscellaneous
+*.swp
